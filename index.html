@@ -15,7 +15,7 @@ layout: default
 
       <div>
         <span class="date">
-          {{ post.date | date: "%Y-%m-%d" }}
+          {{ post.date | date: "%d.%m.%Y" }}
         </span>
 
         <ul class="tag">
@@ -33,7 +33,7 @@ layout: default
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Читать далее</a>
     </article>
   {% endfor %}
 </div>
