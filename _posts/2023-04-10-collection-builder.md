@@ -29,7 +29,6 @@ val ifSettings = buildMap<String, Int> {
     if (externalValue != null) put("external", externalValue)
 }
 
-
 val whenSettings = buildMap<String, Int> {
     put("firstParameter", 5)
     put("valParameter", paramValue)
