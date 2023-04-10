@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Map putIfAbsent и computeIfAbsentl"
+title: "Map putIfAbsent и computeIfAbsent"
 tags: [kotlin, map, collections]
 comments: false
 ---
