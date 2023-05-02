@@ -5,7 +5,7 @@ tags:  [kotlin, collections]
 comments: false
 ---
 
-В случае необходимости создать список, который будет содержать только не null элементы полезно будет использовать фнукцию listOfNotNull.
+В случае необходимости создать список, который будет содержать не null элементы полезно будет использовать фнукцию listOfNotNull.
 
 По сути эта функция заменяет фильтрацию null элементов только без дополнительных записей.
 
@@ -21,8 +21,11 @@ listOfNotNull(1, null, 2, null)
 
 Немного облегчаются функции, в которых необходимо вернуть список без null значений:
 ``` kotlin
-fun getProfileData(firstName: String, nickName: String?, region: String): List<String> = 
-    listOfNotNull(firstName, nickName, region)
+fun getProfileData(
+    firstName: String, 
+    nickName: String?,
+    region: String?
+): List<String> = listOfNotNull(firstName, nickName, region)
 ```
 
 Можем использользовать корутины, если у нас асинхронный способ получения значений.
