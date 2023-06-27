@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Делегирование логики ViewModel"
-tags:  [kotlin, mvvm, delegates]
+tags:  [Android, kotlin, mvvm, delegates]
 comments: false
 ---
 

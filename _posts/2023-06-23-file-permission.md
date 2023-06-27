@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Запрос разрешения для работы с файлами в Android"
-tags:  [kotlin, mvvm, delegates]
+tags:  [Android, kotlin, mvvm, delegates]
 comments: false
 ---
 
