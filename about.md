@@ -1,15 +1,11 @@
 ---
 layout: page
-title: About
+title: Об этом месте
 permalink: /about/
 ---
 
-Some information about you!
+Небольшие заметки о программировании.
 
-### More Information
+### Для связи
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[t.me/sergrnz](https://t.me/sergrnz)

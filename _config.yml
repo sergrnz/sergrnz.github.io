@@ -22,8 +22,8 @@ avatar: https://avatars.githubusercontent.com/u/6292360?v=4
 navigation:
   #- name: Блог
   #  url: /
-  #- name: About
-  #  url: /about
+  - name: Об этом месте
+    url: /about
   #- name: Archive
   #  url: /archive
   #- name: Tags
